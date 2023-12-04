@@ -1,0 +1,17 @@
+1. Describe what your Web Service will do in 1 sentence.
+Users can filter out to find what Starbucks drink they want. 
+
+2. NPM Package
+npm i starbucks-jp-drink | https://www.npmjs.com/package/starbucks-jp-drink
+
+3. What is the parameter you want to receive and how do you want to send it?
+Using checkboxes as a filtering system. 
+
+a. Query String: What would you like to have today?
+b. URL Parameter: localhost:3001/{drinks}
+c. Post Data: Here are some drink options based on your preferences. 
+
+
+
+
+
