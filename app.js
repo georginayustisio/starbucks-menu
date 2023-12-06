@@ -3,7 +3,9 @@ const bodyParser = require('body-parser');
 const translate = require('translate-google');
 const DrinkList = require('starbucks-jp-drink/lib/drinkList.js');
 const app = express();
+const cors = require("cors");
 
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
